@@ -1,0 +1,178 @@
+html {
+	background: linear-gradient(to bottom right, rgb(255, 0, 128), cyan);
+}
+
+h1 {
+	background: rgba(255, 255, 255, 0.4);
+	color: white;
+	opacity: 80%;
+	height: 29.3vh;
+	width: 29.3vh;
+	border-radius: 50%;
+	border: solid 3px whitesmoke;
+	box-shadow: 2px 2px 6px whitesmoke;
+}
+.rotate {
+	transition-duration: 2s;
+}
+.rotate:hover {
+	transform: rotateY(45deg);
+}
+
+.center {
+	margin-left: 30%;
+	position: absolute;
+	top: 10%;
+}
+.right {
+	margin-left: 60%;
+	position: absolute;
+	top: 70%;
+}
+.left {
+	margin-left: 5%;
+	position: absolute;
+	top: 50%;
+}
+.last {
+	margin-left: 80%;
+	position: absolute;
+	top: 10%;
+}
+
+.small {
+	background: rgba(255, 255, 255, 0.4);
+	color: white;
+	opacity: 80%;
+	height: 10.3vh;
+	width: 10.3vh;
+	border-radius: 50%;
+	border: solid 3px whitesmoke;
+	box-shadow: 2px 2px 6px whitesmoke;
+}
+
+.one {
+	margin-left: 30%;
+	position: absolute;
+	top: 70%;
+}
+
+.two {
+	margin-left: 3%;
+	position: absolute;
+	top: 30%;
+}
+
+.three {
+	margin-left: 55%;
+	position: absolute;
+	top: 36%;
+}
+
+.tiny {
+	background: rgba(255, 255, 255, 0.4);
+	color: white;
+	opacity: 80%;
+	height: 3.3vh;
+	width: 3.3vh;
+	border-radius: 50%;
+	border: solid 3px whitesmoke;
+	box-shadow: 2px 2px 6px whitesmoke;
+}
+
+.uno {
+	margin-left: 80%;
+	position: absolute;
+	top: 60%;
+}
+
+.dos {
+	margin-left: 50%;
+	position: absolute;
+	top: 66%;
+}
+
+.tres {
+	margin-left: 20%;
+	position: absolute;
+	top: 20%;
+}
+
+.down {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-top: 5px;
+	animation: up 2s infinite;
+}
+
+.back {
+	display: flex;
+	flex-direction: row;
+}
+
+.first {
+	background: white;
+	color: white;
+	border-radius: 50px;
+	margin-left: 0vh;
+	margin-right: 10px;
+	text-align: center;
+	height: 30vh;
+	padding: 5px;
+	animation: bounce 1.5s infinite;
+	opacity: 20%;
+}
+.second {
+	background: white;
+	color: white;
+	border-radius: 50px;
+	margin-left: 0vh;
+	margin-right: 10px;
+	text-align: center;
+	height: 20vh;
+	animation: bounce 1.5s infinite;
+	opacity: 20%;
+}
+.third {
+	background: white;
+	color: white;
+	border-radius: 50px;
+	margin-left: 0vh;
+	margin-right: 10px;
+	text-align: center;
+	height: 60vh;
+	animation: bounce 1.5s infinite;
+	opacity: 20%;
+}
+
+.big {
+	animation: big 4s infinite;
+}
+
+@keyframes big {
+	0% {
+		margin-top: 0px;
+	}
+	50% {
+		margin-top: 15px;
+	}
+	100% {
+		margin-top: 0px;
+	}
+}
+
+.little {
+	animation: little 4s infinite;
+}
+
+@keyframes little {
+	0% {
+		margin-top: 15px;
+	}
+	50% {
+		margin-top: 0px;
+	}
+	100% {
+		margin-top: 15px;
+	}
+}
